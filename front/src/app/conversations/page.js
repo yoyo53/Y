@@ -1,5 +1,6 @@
 "use client"
 import { useEffect, useState, Fragment } from 'react';
+import Link from 'next/link';
 let token;
 import Newconv from './newconvcomposant';
 export function Conversations() {
@@ -49,11 +50,11 @@ export function Conversations() {
   <div className="m-10 rounded-lg overflow-hidden">
   <Newconv 
     token={token}
-    refreshConversations = {refreshConversations(token)}/>
+    refreshConversations = {refreshConversations}/>
     <ul className="bg-gray-100 shadow-md divide-y divide-gray-200 mt-4 rounded-lg">
       {conversations && conversations.map((conversation) => (
         <li key={conversation.id} className="p-8 hover:bg-gray-50">
-          <a href={`/conversations/chatpage?id=${conversation.id}`} className="block cursor-pointer">
+          <Link href={`/conversations/chatpage?id=${conversation.id}`} className="block cursor-pointer">
             <div className="flex justify-between items-center">
               <div className="flex items-center space-x-4">
                 <div className="w-12 h-12 rounded-full bg-gray-300">
@@ -78,7 +79,7 @@ export function Conversations() {
                 )}
               </div>
             </div>
-          </a>
+          </Link>
         </li>
       ))}
     </ul>
