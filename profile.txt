@@ -1,6 +1,6 @@
 1:HL["/Y/_next/static/media/c9a5bc6a7c948fb0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 2:HL["/Y/_next/static/css/d92a7e3ae9b04468.css","style",{"crossOrigin":""}]
-0:["9ld7P4pbzicEFQe0q0eYh",[[["",{"children":["profile",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/Y/_next/static/css/d92a7e3ae9b04468.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
+0:["s5v2yguT7fznNa6oafk8I",[[["",{"children":["profile",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/Y/_next/static/css/d92a7e3ae9b04468.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
 5:I[5925,["176","static/chunks/176-183c28912d73a2ba.js","288","static/chunks/288-76eb279f95e69730.js","185","static/chunks/app/layout-0f1f57a7dda6a63f.js"],"Toaster"]
 6:I[1453,["176","static/chunks/176-183c28912d73a2ba.js","288","static/chunks/288-76eb279f95e69730.js","185","static/chunks/app/layout-0f1f57a7dda6a63f.js"],""]
 7:I[6954,[],""]
